@@ -10,7 +10,6 @@ def closest_binary_search_tree(node: Node, target):
     1   3
     :return:
     """
-    # rounded_target = round(target)
     closest = node.value
 
     while node:
